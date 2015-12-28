@@ -1,4 +1,4 @@
-# aarlib
+# A demo to upload android project to private maven repo
 
 
 open ```local.properties```, replace your own ```sdk.dir```
