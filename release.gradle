@@ -16,7 +16,7 @@ def isReleaseBuild() {
 }
 
 def getRepositoryUrl() {
-    return hasProperty('repositoryUrl') ? property('repositoryUrl') : "http://mvn.corp.wandoujia.com/nexus/content/repositories/android-repo"
+    return hasProperty('repositoryUrl') ? property('repositoryUrl') : "http://mvn.corp.mycompany.com/nexus/content/repositories/android-repo"
 }
 
 def getRepositoryUsername() {
@@ -81,7 +81,7 @@ afterEvaluate { project ->
                 artifactId POM_ARTIFACT_ID
                 packaging POM_PACKAGING
                 description POM_DESCRIPTION
-                url 'https://git.wandoulabs.com/#/admin/projects/aarlib'
+                url 'https://git.mycompany.com/#/admin/projects/aarlib'
 
                 developers {
                     developer {
